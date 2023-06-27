@@ -1,0 +1,34 @@
+# Move up / down in popup windows (eg Space f f )
+Ctrl+k / Ctrl+j		# up / down through file list (when in insert mode)
+Ctrl+u / Ctrl+d		# up / down through file in preview (when in insert mode)
+
+# Open
+Space g g		# git
+Space t v		# terminal in vertical split
+Space f f		# find file to open
+Space f o		# find recent files
+Space f w		# search files for content
+Space f c		# search for the current word
+Space e			# Open neo-tree (left panel with buffers / files)
+
+# Edit
+Space /			# comment / uncomment line
+selection + Space /	# comment / uncomment selection in visual mode
+
+# Navigate buffers
+[ b 			# go to the left buffer (opened file)
+] b			# go to the right buffer (opened file)
+Ctrl+h / Ctrl+l		# switch between open panels/buffers
+
+# File panel (neo-tree)
+a			# add file or dir
+r			# rename file or dir
+d			# delete file or dir
+
+# window resizing
+:vertical resize -50	# shring current window width by 50
+Ctrl+w			# windows submenu
+Ctrl+w <>		# decrease / increase width
+
+# terminal
+gx			# open url under the cursor
