@@ -28,6 +28,7 @@ r			# rename file or dir
 d			# delete file or dir
 
 # window resizing
+Ctrl + arrow		# resize accordingly to pressed arrow
 :vertical resize -50	# shring current window width by 50
 Ctrl+w			# windows submenu
 Ctrl+w <>		# decrease / increase width
