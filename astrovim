@@ -14,6 +14,8 @@ Space e			# Open neo-tree (left panel with buffers / files)
 # Edit
 Space /			# comment / uncomment line
 selection + Space /	# comment / uncomment selection in visual mode
+g d			# go to definition
+Ctrl o			# get back after gd
 
 # Navigate buffers
 [ b 			# go to the left buffer (opened file)
@@ -29,6 +31,7 @@ d			# delete file or dir
 :vertical resize -50	# shring current window width by 50
 Ctrl+w			# windows submenu
 Ctrl+w <>		# decrease / increase width
+sv TODO			# split vertical (open TODO file on the right)
 
 # terminal
 gx			# open url under the cursor
