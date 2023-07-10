@@ -36,3 +36,6 @@ sv TODO			# split vertical (open TODO file on the right)
 
 # terminal
 gx			# open url under the cursor
+
+# astronvim
+:qa			# close all buffers (quit Astro)
