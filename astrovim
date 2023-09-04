@@ -39,3 +39,8 @@ gx			# open url under the cursor
 
 # astronvim
 :qa			# close all buffers (quit Astro)
+
+# upgrade and healtcheck
+:checkhealth		# checking all the systems for astronvim
+:AstroUpdate		# update the astronvim
+:AstroUpdatePackages	# update packages
